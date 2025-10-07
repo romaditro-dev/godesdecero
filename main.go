@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/romaditro/godesdecero/variables"
 )
 
 func main() {
-	fmt.Println("Hola Romaditro")
+	variables.MuestroEnteros()
 }
