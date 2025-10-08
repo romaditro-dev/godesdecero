@@ -7,7 +7,7 @@ import (
 func MuestroEnteros() {
 	var intcomun int
 
-	intde32 := int32(10)
+	intde32 := int32(32)
 	intde64 := int64(64)
 
 	fmt.Println("intcomun	= ", intcomun)
