@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/romaditro/godesdecero/ejercicios"
+	"github.com/romaditro/godesdecero/funciones"
 )
 
 func main() {
@@ -17,14 +15,18 @@ func main() {
 		fmt.Println(estado)
 		fmt.Println(texto)
 	*/
+	/*
+		numero, texto := ejercicios.ConvNumerico("100")
+		fmt.Println(numero)
+		fmt.Println(texto)
 
-	numero, texto := ejercicios.ConvNumerico("100")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	*/
+	//	numero, texto = ejercicios.ConvNumerico("*/*//")
 
-	numero, texto = ejercicios.ConvNumerico("*/*//")
+	/*
+		fmt.Println(numero)
+		fmt.Println(texto)
+	*/
 
-	fmt.Println(numero)
-	fmt.Println(texto)
-
+	funciones.Calculos()
 }
